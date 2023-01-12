@@ -1,12 +1,11 @@
 <template>
   <div class="about">
     <h1>About</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum aperiam officia possimus delectus inventore quod quisquam culpa voluptas iusto, quae maiores quo dolorum, corporis laboriosam a dolore consequatur assumenda nam!</p>
+    
+    <p>TODO Application with Vue js created by students at ISET Djerba</p>
 
     <transition name="fade">
-      <div v-if="showP">hello, L3MDW</div>
+      <div v-if="showP">bonjour, L3MDW</div>
     </transition>
     <button @click="showP = !showP"> click me </button>
   </div>
